@@ -31,7 +31,7 @@ df = df.sort_values(by = [0])
 dates = list(df[0])
 l = list(df[1])
 
-# guards dictionary will contain all the minutes a guard asleep
+# guards dictionary will contain all the minutes a guard is asleep
 guards = {}
 g = None
 i = 0
