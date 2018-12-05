@@ -39,4 +39,5 @@ for a in alphabet:
         shortest = len(poly2)
       break
     l = len(poly2)
+    
 print(shortest)
