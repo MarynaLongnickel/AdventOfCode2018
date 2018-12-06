@@ -12,7 +12,7 @@ The width of the rectangle in inches.
 The height of the rectangle in inches.  
 A claim like #123 @ 3,2: 5x4 means that claim ID 123 specifies a rectangle 3 inches from the left edge, 2 inches from the top edge, 5 inches wide, and 4 inches tall. Visually, it claims the square inches of fabric represented by # (and ignores the square inches of fabric represented by .) in the diagram below:  
   
-```python  
+```html  
 ...........  
 ...........  
 ...#####...  
@@ -25,7 +25,7 @@ A claim like #123 @ 3,2: 5x4 means that claim ID 123 specifies a rectangle 3 inc
 ```
 The problem is that many of the claims overlap, causing two or more claims to cover part of the same areas. For example, consider the following claims:  
   
-```python 
+```html 
 #1 @ 1,3: 4x4  
 #2 @ 3,1: 4x4  
 #3 @ 5,5: 2x2
@@ -33,7 +33,7 @@ The problem is that many of the claims overlap, causing two or more claims to co
 
 Visually, these claim the following areas:  
   
-```python 
+```html 
 ........  
 ...2222.  
 ...2222.  
