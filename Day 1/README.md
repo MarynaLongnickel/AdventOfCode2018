@@ -22,7 +22,7 @@ In this example, the resulting frequency is 3.
   
 Here are other example situations:  
   
-```python
+```html
 +1, +1, +1 results in  3  
 +1, +1, -2 results in  0  
 -1, -2, -3 results in -6  
@@ -35,7 +35,7 @@ You notice that the device repeats the same frequency change list over and over.
   
 For example, using the same list of changes above, the device would loop as follows:  
   
-```python
+```html
 Current frequency  0, change of +1; resulting frequency  1.  
 Current frequency  1, change of -2; resulting frequency -1.  
 Current frequency -1, change of +3; resulting frequency  2.  
@@ -48,7 +48,7 @@ In this example, the first frequency reached twice is 2. Note that your device m
   
 Here are other examples:  
   
-```python
+```html
 +1, -1 first reaches 0 twice.  
 +3, +3, +4, -2, -4 first reaches 10 twice.  
 -6, +3, +8, +5, -6 first reaches 5 twice.  
