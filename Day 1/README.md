@@ -12,7 +12,7 @@ After feeling like you've been falling for a few minutes, you look at the device
   
 For example, if the device displays frequency changes of +1, -2, +3, +1, then starting from a frequency of zero, the following changes would occur:  
   
-```python
+```html
 Current frequency  0, change of +1; resulting frequency  1.  
 Current frequency  1, change of -2; resulting frequency -1.  
 Current frequency -1, change of +3; resulting frequency  2.  
