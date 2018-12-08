@@ -38,7 +38,7 @@ If we name these coordinates A through F, we can draw them on a grid, putting 0,
   
 This view is partial - the actual grid extends infinitely in all directions. Using the Manhattan distance, each location's closest coordinate can be determined, shown here in lowercase:  
   
-``html
+```html
 aaaaa.cccc  
 aAaaa.cccc  
 aaaddecccc  
