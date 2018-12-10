@@ -30,5 +30,9 @@ for i in range(11000):
     
     if mx < 150 and n[0] - minx < w and n[1] - miny < h:
       sky[n[1] - miny][n[0] - minx] = 1
-        
+    
+plt.grid(False)
+plt.xticks([])
+plt.yticks([])
+
 imshow(skyy);
