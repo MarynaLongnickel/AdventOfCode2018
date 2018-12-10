@@ -16,8 +16,8 @@ for i in range(11000):
   minx, maxx = min([i[0] for i in nums]), max([i[0] for i in nums])
   miny, maxy = min([i[1] for i in nums]), max([i[1] for i in nums])
   
-  mx = abs(maxx - minx)
-  my = abs(maxy - miny)
+  mx, my = abs(maxx - minx), abs(maxy - miny)
+    
   if min(mx, my) > dis:
     print(i-1)
     imshow(skyy)
@@ -32,6 +32,5 @@ for i in range(11000):
     n[0] += n[2]
     n[1] += n[3]
     
-    if mx < 150:
-      if n[0] - minx < len(sky[0]) and n[1] - miny < len(sky):
-        sky[n[1] - miny][n[0] - minx] = 1
+    if mx < 150 and n[0] - minx < len(sky[0]) and n[1] - miny < len(sky):
+      sky[n[1] - miny][n[0] - minx] = 1
