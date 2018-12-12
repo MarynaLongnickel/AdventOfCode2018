@@ -15,7 +15,7 @@ It's not clear what these plants are for, but you're sure it's important, so you
   
 For example, given the following input:  
   
-initial state: #..#.#..##......###...###  
+initial state: ```html #..#.#..##......###...###```  
   
 ```html
 ...## => #  
@@ -36,7 +36,7 @@ initial state: #..#.#..##......###...###
   
 For brevity, in this example, only the combinations which do produce a plant are listed. (Your input includes all possible combinations.) Then, the next 20 generations will look like this:  
   
-``html
+```html
                  1         2         3       
        0         0         0         0       
  0: ...#..#.#..##......###...###...........  
