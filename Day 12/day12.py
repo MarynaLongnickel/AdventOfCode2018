@@ -56,7 +56,7 @@ for j in range(g):
         s += p - added
     # count the number of plants
     c = init.count('X')
-    # calculate where the configuration will be on 50000000000th generation
+    # calculate what the sum of the configuration will be after 50000000000 generations
     print((5*(10**10) - j) * c + s)
     break
     
