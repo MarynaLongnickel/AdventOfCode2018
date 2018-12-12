@@ -47,7 +47,7 @@ for j in range(g):
   # collapse list of new pots and plants to a string
   new = ''.join(new)
   
-  # if the state has reached a stable point (configuration just moves around, but remains the same)
+  # if the state has reached a stable point (configuration of plants just moves around the pots, but remains the same)
   if 'o' + init == new + 'o':
     s = 0
     # find the new sum as the stable position
