@@ -15,7 +15,7 @@ It's not clear what these plants are for, but you're sure it's important, so you
   
 For example, given the following input:  
   
-initial state: ```html #..#.#..##......###...###```  
+initial state: ` #..#.#..##......###...###`    
   
 ```html
 ...## => #  
