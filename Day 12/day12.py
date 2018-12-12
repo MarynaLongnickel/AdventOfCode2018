@@ -5,22 +5,15 @@ data = urlopen('https://raw.githubusercontent.com/MarynaLongnickel/AdventOfCode2
 
 # keep track of how much the list gets shifted to the right as plants get close to the left side
 added = 0
-# initial state
-init = data[0]
-# i replaced symbols so regex doesn't get confused
-init = init.replace('#', 'X')
-init = init.replace('.', 'o')
+# set initial state (i replaced symbols so regex doesn't get confused)
+init = data[0].replace('#', 'X').replace('.', 'o')
 d = {}
 s = 0
 
 # fill in the states dictionary
 for i in data[1:-1]:
-  n1 = i[:5]
-  n1 = n1.replace('#', 'X')
-  n1 = n1.replace('.', 'o')
-  n2 = i[-1]
-  n2 = n2.replace('#', 'X')
-  n2 = n2.replace('.', 'o')
+  n1 = i[:5].replace('#', 'X').replace('.', 'o')
+  n2 = i[-1].replace('#', 'X').replace('.', 'o')
   d[n1] = n2
   
 # number of generations  
