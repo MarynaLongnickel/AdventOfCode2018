@@ -45,14 +45,8 @@ def move(j, r, c):
       elif data[r + r2][c + c2] == '+':
         
         # direction in which the cart moves at an intersection
-        if carts[j][2] == 'l':
-          carts[j][1] = dir[a][0]
-          carts[j][2] = 's'
-        elif carts[j][2] == 's':
-          carts[j][2] = 'r'
-        elif carts[j][2] == 'r':
-          carts[j][1] = dir[a][1]
-          carts[j][2] = 'l'  
+        carts[j][1] = dir[a][0] if carts[j][2] == 'l' else dir[a][1] if carts[j][2] == 'r' else carts[j][1]
+        carts[j][2] = 's' if carts[j][2] == 'l' else 'r' if carts[j][2] == 's' else 'l'
           
       carts[j][4 if a in ['<', '>'] else 3] += 1 if a in ['v', '>'] else -1
       isLast(j)
