@@ -20,7 +20,7 @@ minx, maxx = min(x), max(x)
 miny, maxy = min(y), max(y)
 
 # initialize the scan and fill it in wherever there is clay
-scan = [['.' for i in range(maxx - minx + 2)] for j in range(maxy + 1)]
+scan = [['.' for i in range(maxx - minx + 1)] for j in range(maxy + 1)]
 
 for c in coor: scan[c[1]][c[0] - minx] = '#'
 
