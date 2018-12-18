@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import re
 
-data = urlopen('https://raw.githubusercontent.com/MarynaLongnickel/AdventOfCode2018/master/Day%2017/sample.txt').read().decode().split('\n')[:-1]
+data = urlopen('https://raw.githubusercontent.com/MarynaLongnickel/AdventOfCode2018/master/Day%2017/day17.txt').read().decode().split('\n')[:-1]
 
 coor = []
 
