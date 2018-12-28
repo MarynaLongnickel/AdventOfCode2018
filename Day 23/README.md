@@ -45,7 +45,7 @@ In this example, in total, 7 nanobots are in range of the nanobot with the large
 Find the nanobot with the largest signal radius. How many nanobots are in range of its signals?  
   
   
---- Part Two ---  
+--- Part Two ---   
   
 Now, you just need to figure out where to position yourself so that you're actually teleported when the nanobots activate.  
   
